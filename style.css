@@ -58,7 +58,8 @@ a:hover {
     color: var(--yellow);
 }
 #image {
-    width: auto;
+    width: 2rem;
+    border-radius: 2rem;
 }
 #l {
     background-color: var(--yellow);
