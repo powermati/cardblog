@@ -20,7 +20,7 @@ div {
     display: flex;
     flex-direction: column;
     max-width: 36rem;
-    margin: 2rem auto;
+    margin: 4rem auto;
     background-color: var(--white);
     align-items: ;
     padding: 2.5rem;
