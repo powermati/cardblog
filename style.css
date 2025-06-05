@@ -1,0 +1,74 @@
+:root {
+    --yellow: hsl(47 88 63);
+    --white: hsl(0 0 100);
+    --gray500: hsl(0 0 42);
+    --gray950: hsl(0 0 7);
+}
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-size: 16px;
+    font-family: "Figtree", sans-serif;
+    background-color: var(--yellow);
+}
+div {
+    display: flex;
+    flex-direction: column;
+    max-width: 36rem;
+    margin: 2rem auto;
+    background-color: var(--white);
+    align-items: ;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+#name {
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    justify-content: start;
+    align-items: center;
+    gap: 2rem;
+}
+#avatar {
+    height: 4rem;
+}
+.w500 {
+    font-weight: 500;
+}
+.w800 {
+    font-weight: 800;
+}
+#g500 {
+    color: var(--gray500);
+}
+#g950 {
+    color: var(--gray950);
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 2.6rem;
+}
+a:hover {
+    color: var(--yellow);
+}
+#image {
+    width: auto;
+}
+#l {
+    background-color: var(--yellow);
+    padding: .5rem 1rem;
+    width: 8.5rem;
+    border-radius: .5rem;
+}
+.con {
+    box-shadow: 6px 6px 0px 0px rgba(0,0,0,1);
+    -webkit-box-shadow: 6px 6px 0px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 6px 6px 0px 0px rgba(0,0,0,1);
+    border: 1.5px solid;
+}
